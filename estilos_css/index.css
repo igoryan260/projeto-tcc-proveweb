@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Montserrat;
+}
+
+
+/*Tamanhos de tela width screen*/
+
+.width-delimited-100 {
+    max-width: 90%;
+    margin: 0rem 3rem;
+}
+
+.screen-width {
+    width: 100%
+}
+
+
+/*===========================*/
+
+
+/* Nav menu, menu de navegação */
+
+.nav-menu.background {
+    padding: 1.5rem 0rem;
+    border-bottom: solid #a9aaa9 3px;
+}
+
+.content-nav-menu {
+    float: right;
+    margin: -1%;
+}
+
+.menu-principal ul li {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+
+/* ==================================*/
+
+
+/*formatação dos links no menu */
+
+.menu-principal a {
+    font-size: 14pt;
+    font-weight: 600;
+    text-decoration: none;
+    color: #f7931e;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.menu-principal a:hover {
+    color: #00a99d;
+}
+
+
+/*=====================================*/
+
+
+/* Parte superior do site */
+
+.img-background {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+.effect-fade {
+    position: absolute;
+    height: 99.5%;
+    width: 100%;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-background img {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.top-content {
+    position: relative;
+    max-height: 900px;
+}
+
+
+/*alinhamento de conteúdo */
+
+#logo {
+    margin-top: -8rem;
+}
+
+.content {
+    max-width: 38rem;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    padding: 1rem 2rem 2rem;
+    transform: translate(55%, -120%);
+    color: white;
+}
+
+
+/* formatação de textos e margens*/
+
+#top-message {
+    font-weight: 300;
+    font-size: 23pt;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+}
+
+#welcome {
+    font-size: 28pt;
+    font-weight: bold;
+}
+
+#welcome button {
+    font-size: 28pt;
+    font-weight: bold;
+    color: #00a99d;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    border: none;
+    margin-top: 3rem;
+}
+
+#welcome a {
+    font-weight: 500;
+    font-size: 11pt;
+    color: white;
+}
+
+
+/*===========================*/
+
+
+/* Primeiro conteúdo da página*/
+
+.first-content {
+    height: auto;
+    width: 100%;
+    padding: 3rem 0;
+    position: relative;
+    display: flex;
+}
+
+.h2-content {
+    font-size: 40pt;
+    font-weight: 300;
+    color: #00a99d;
+    position: relative;
+    width: 400px;
+    margin-left: 2rem;
+}
+
+hr {
+    height: 3px;
+    background-color: #00a99d;
+    border: none;
+    width: 200px;
+    margin-left: 5rem;
+}
+
+.title-and-text {
+    position: relative;
+    width: 800px;
+}
+
+.p-content {
+    font-size: 20pt;
+    font-weight: 300;
+}
+
+#flat-homepage {
+    width: min-content;
+    height: min-content;
+}
+
+
+/*=============================================*/
+
+
+/* second cont, segundo conteúdo da pág */
+
+.second-content {
+    display: flex;
+}
+
+.second-content #flat-homepage {
+    margin-right: 6rem;
+    padding-top: 5rem;
+}
+
+.second-content .h2-content {
+    margin-bottom: 2rem;
+}
+
+.h2-content strong {
+    font-size: 40pt;
+    font-weight: 300;
+    border-bottom: 3px solid;
+}
+
+
+/*==============================*/
+
+
+/*third content, terceiro conteúdo da página*/
+
+.third-content {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.third-content hr {
+    margin-left: 2.3rem;
+    margin-bottom: 2rem;
+}
+
+.third-content #flat-homepage {
+    margin-top: 6.5rem;
+}
+
+
+/*==============================*/
+
+
+/* background citation*/
+
+.background-citation {
+    width: 100%;
+    padding: 190px 90px;
+    margin-top: 1rem;
+    background: -moz-linear-gradient(135deg, #a99a46, #38bd71);
+}
+
+.content-citation {
+    font-size: 27pt;
+    color: white;
+    text-align: center;
+}
+
+
+/*=========================================*/
+
+
+/* Footer */
+
+.h2 h2 {
+    font-size: 23pt;
+    font-weight: bold;
+    color: #2e2e2e;
+}
+
+.content-footer {
+    position: relative;
+    max-width: max-content;
+    margin: auto;
+}
+
+.icon-proveweb {
+    margin: auto;
+    max-width: min-content;
+    display: block;
+}
+
+.img-icon {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*==========================*/

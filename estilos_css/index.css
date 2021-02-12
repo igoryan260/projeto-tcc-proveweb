@@ -60,6 +60,19 @@ html {
     color: #00a99d;
 }
 
+.menu-principal #ten-days-free {
+    background-color: #00a99d;
+    color: white;
+    border-radius: 3rem;
+    padding: .3rem .7rem;
+}
+
+.menu-principal #ten-days-free:hover {
+    background-color: white;
+    color: #00a99d;
+    transition-duration: .5s;
+}
+
 
 /*=====================================*/
 

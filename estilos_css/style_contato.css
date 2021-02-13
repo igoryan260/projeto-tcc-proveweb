@@ -5,6 +5,7 @@
     
     .background-contat-proveweb {
         background: -moz-linear-gradient(180deg, #4d8fd0, #53df90);
+        background: -webkit-linear-gradient(180deg, #4d8fd0, #53df90);
         height: 440px;
         position: relative;
         display: flex;

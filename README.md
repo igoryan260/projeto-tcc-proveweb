@@ -5,3 +5,7 @@ Dia 11/02/2021 foi  finalizado o footer da home page do site. Alguns detalhes na
 12/02/2021:  Adicionado o estilo de botão no link "10 dias grátis".
 
 Também foi feita a página completa de contatos proveweb. Juntamente com a conexão entre páginas (home e contatos)
+
+13/02/2021:
+
+Atualização da home page, bug da flutuação do conteúdo inicial da págna. E deixando a altura do background image fixa em 900px.

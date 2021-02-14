@@ -11,3 +11,5 @@ Também foi feita a página completa de contatos proveweb. Juntamente com a cone
 Atualização da home page, bug da flutuação do conteúdo inicial da págna. E deixando a altura do background image fixa em 900px.
 
 Mais uma atualização no alinhamento e positions do background e efeito da homepage
+
+Alteração para corrigir o bug do menu!

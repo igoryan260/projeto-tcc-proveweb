@@ -27,13 +27,15 @@ html {
 /* Nav menu, menu de navegação */
 
 .nav-menu.background {
-    padding: 1.5rem 0rem;
+    height: 50px;
     border-bottom: solid #a9aaa9 3px;
 }
 
 .content-nav-menu {
+    display: flex;
+    align-items: center;
+    height: 50px;
     float: right;
-    margin: -1%;
 }
 
 .menu-principal ul li {

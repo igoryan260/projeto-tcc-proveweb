@@ -114,17 +114,18 @@ html {
 /*alinhamento de conteúdo */
 
 #logo {
-    margin-top: -8rem;
+    width: 100%;
+    margin-left: 10px;
 }
 
 .content {
     max-width: 38rem;
-    height: auto;
+    height: max-content;
     display: inline-block;
     text-align: center;
     padding: 1rem 2rem 2rem;
     color: white;
-    margin: 17rem auto;
+    margin: 10rem auto;
 }
 
 

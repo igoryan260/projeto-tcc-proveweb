@@ -19,10 +19,19 @@
         margin-left: 8rem;
         font-size: 23pt;
         font-weight: bold;
+        display: flex;
+        align-items: center;
     }
     
-    h1 {
+    .title-principal h1 {
         color: white;
+    }
+    
+    .title-principal p {
+        color: white;
+        font-weight: 100;
+        font-size: 45pt;
+        margin-left: 1rem;
     }
     /*========================================================*/
     /* Background do Contato Proveweb */
@@ -121,3 +130,32 @@
         text-align: right;
     }
     /*=========================================================*/
+    /*PAGINA 'DUVIDAS' */
+    
+    .logo {
+        width: 130px;
+        height: 22px;
+        top: -10px;
+    }
+    
+    .logo img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .questions {
+        margin: 9rem 4.8rem;
+    }
+    
+    .questions h1 {
+        color: #898989;
+        font-size: 20pt;
+        margin-bottom: 1rem;
+        margin-top: 5rem;
+    }
+    
+    .questions p {
+        font-size: 15pt;
+        margin-bottom: 1rem;
+    }
+    /*=====================================================================================*/

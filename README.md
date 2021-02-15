@@ -18,3 +18,8 @@ Alteração para corrigir o bug do menu!
 
 Adição da pág 'Quem somos'.  Utilizando o mesmo estilo css chamada "style_contat.css", pertencente à página de contato proveweb.
 Também utiliza o css da pág "index.html".
+
+Adicionada uma nova página "dúvidas". Contendo os css "style_contat.css" e "index.css". Foi alterado também o botão de 10 dias grátis
+além de adicionar a logotipo no canto superior esquerdo. 
+
+Alteração no modelo de 'navegação'. Adicionado os itens de Justify-content; display e outras coisas e alinhamento.

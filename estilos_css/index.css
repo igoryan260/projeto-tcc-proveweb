@@ -36,6 +36,8 @@ html {
     align-items: center;
     height: 50px;
     float: right;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .menu-principal ul li {
@@ -65,7 +67,10 @@ html {
 .menu-principal #ten-days-free {
     background-color: #00a99d;
     color: white;
-    border-radius: 3rem;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+    width: 12rem;
     padding: .3rem .7rem;
 }
 

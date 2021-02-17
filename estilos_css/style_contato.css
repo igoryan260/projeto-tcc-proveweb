@@ -159,3 +159,92 @@
         margin-bottom: 1rem;
     }
     /*=====================================================================================*/
+    /*Página RECLAME*/
+    
+    .form-reclame {
+        margin-top: 3rem;
+        font-size: 20pt;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .form-reclame h2 {
+        margin-bottom: 3rem;
+        color: #4fafb7;
+        font-size: 22pt;
+        font-weight: 400;
+    }
+    
+    .form-dados-pessoais {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-dados-pessoais label {
+        margin-right: 1rem;
+    }
+    
+    .form-dados-pessoais div {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    
+    #informar-problema {
+        align-items: flex-start;
+    }
+    
+    .width-input-default input {
+        width: 480px;
+        height: 25px;
+    }
+    
+    #problemaReclame {
+        height: 350px;
+    }
+    
+    #reset {
+        height: auto;
+        width: auto;
+    }
+    
+    .form-forma-contato {
+        text-align: center;
+    }
+    
+    .form-forma-contato h3 {
+        color: #4fafb7;
+        font-weight: 400;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .form-forma-contato label {
+        display: inline-flex;
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .form-forma-contato input[type="radio"] {
+        display: none;
+    }
+    
+    .form-forma-contato button {
+        margin-right: 1rem;
+        background-size: 1rem;
+        border-radius: 5rem;
+        border: solid #898989 2px;
+        width: 10px;
+        height: 10px;
+    }
+    
+    .form-forma-contato input[type="radio"]:checked+label button {
+        background-size: 1rem;
+        background-color: #898989;
+        border: none;
+        width: 10px;
+        height: 10px;
+    }
+    /*=============================================================*/

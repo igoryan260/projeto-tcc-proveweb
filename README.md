@@ -23,3 +23,7 @@ Adicionada uma nova página "dúvidas". Contendo os css "style_contat.css" e "in
 além de adicionar a logotipo no canto superior esquerdo. 
 
 Alteração no modelo de 'navegação'. Adicionado os itens de Justify-content; display e outras coisas e alinhamento.
+
+16/02/2021:
+
+Adicionando a pág de formulário "RECLAME", utilizando a folha de estilo "style_contat.css" para estilos internos. E utilizando a folha de estilos "index.css" para estilos externos (menu e footer). Não finalizada ainda. Falta terminar os botões de "envio e cancelar". Houve uma metodologia de estilizar o input "radio", localizado no fim do formulário.

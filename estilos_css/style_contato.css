@@ -226,6 +226,7 @@
         margin-left: 1rem;
         margin-right: 1rem;
     }
+    /*Estrutura para formatar a "bolinha" de seleção radio*/
     
     .form-forma-contato input[type="radio"] {
         display: none;
@@ -246,5 +247,68 @@
         border: none;
         width: 10px;
         height: 10px;
+    }
+    /* Input "Apagar tudo"*/
+    
+    .form-forma-contato input[type="reset"] {
+        background: none;
+        border: none;
+        font-size: 17pt;
+        color: #898989;
+        font-weight: 700;
+        margin: 2rem 0rem 2rem;
+    }
+    
+    .form-forma-contato input[type="reset"]:hover {
+        color: #acacac;
+        transition: 1s;
+    }
+    /*==============================================================*/
+    /*=======================================================*/
+    /*
+    *alinhamento dos botões de envio e cancelar;
+    *Estilização */
+    
+    #submit_cancel-button {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    #submit_cancel-button input {
+        font-size: 17pt;
+        font-weight: 400;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    #submit_cancel-button input[type="submit"] {
+        background: none;
+        border: 2px solid #53df90;
+        width: 7rem;
+        height: 2rem;
+        color: #53df90;
+        margin-right: 2rem;
+    }
+    
+    #submit_cancel-button input[type="submit"]:hover {
+        background: #53df90;
+        color: white;
+        transition-duration: 1s;
+    }
+    
+    #submit_cancel-button input[type="button"] {
+        background: none;
+        border: 2px solid #ff0000;
+        width: 7rem;
+        height: 2rem;
+        color: #ff0000;
+        margin-left: 2rem;
+    }
+    
+    #submit_cancel-button input[type="button"]:hover {
+        background: #ff0000;
+        color: white;
+        transition-duration: 1s;
     }
     /*=============================================================*/

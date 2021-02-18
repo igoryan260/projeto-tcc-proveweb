@@ -27,3 +27,8 @@ Alteração no modelo de 'navegação'. Adicionado os itens de Justify-content; 
 16/02/2021:
 
 Adicionando a pág de formulário "RECLAME", utilizando a folha de estilo "style_contat.css" para estilos internos. E utilizando a folha de estilos "index.css" para estilos externos (menu e footer). Não finalizada ainda. Falta terminar os botões de "envio e cancelar". Houve uma metodologia de estilizar o input "radio", localizado no fim do formulário.
+
+18/02/2021:
+
+Finalização da página de reclame. Adicionado a estilização dos inputs
+Enviar; Cancelar e Apagar tudo.

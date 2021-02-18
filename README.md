@@ -32,3 +32,5 @@ Adicionando a pág de formulário "RECLAME", utilizando a folha de estilo "style
 
 Finalização da página de reclame. Adicionado a estilização dos inputs
 Enviar; Cancelar e Apagar tudo.
+
+Adicionada a página de 10 dias grátis, também utilizando a mesma folha de estilos. 

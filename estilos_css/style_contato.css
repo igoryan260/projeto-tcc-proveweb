@@ -312,3 +312,40 @@
         transition-duration: 1s;
     }
     /*=============================================================*/
+    /*PAGINA DE TEN DAYS FREE*/
+    
+    .bg-days-free {
+        max-width: 100%;
+        position: absolute;
+        height: 900px;
+        overflow: hidden;
+    }
+    
+    .bg-days-free img {
+        height: 100%;
+    }
+    
+    #header-10daysfree {
+        position: relative;
+        display: flex;
+        height: 900px;
+    }
+    
+    .title-10daysfree {
+        position: relative;
+        margin: auto;
+        max-width: max-content;
+        max-height: min-content;
+        text-align: center;
+        font-size: 20pt;
+    }
+    
+    .title-10daysfree h1 {
+        color: white;
+        font-weight: 500;
+    }
+    
+    .title-10daysfree b {
+        color: white;
+    }
+    /*===============================================================================*/

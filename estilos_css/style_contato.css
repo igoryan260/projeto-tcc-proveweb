@@ -348,4 +348,104 @@
     .title-10daysfree b {
         color: white;
     }
+    /* formatação do formulário*/
+    
+    .content-1 {
+        display: flex;
+        margin: auto;
+        width: max-content;
+    }
+    
+    .container-form10daysfree {
+        display: flex;
+        flex-direction: column;
+        max-width: max-content;
+    }
+    
+    .container-form10daysfree h3 {
+        background-color: #4fafb7;
+        color: white;
+        font-weight: 600;
+        width: 20rem;
+        padding: 5px 2rem;
+        border-radius: .3rem;
+        margin: 4rem 0 2rem;
+        text-align: center;
+    }
+    
+    .form-tendaysfree {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        font-size: 14pt;
+        font-weight: 800;
+    }
+    
+    .form-tendaysfree h4 {
+        margin-bottom: 2rem;
+        color: #636363;
+    }
+    
+    .form-tendaysfree div {
+        margin-left: 1rem;
+        display: flex;
+    }
+    
+    .form-tendaysfree input {
+        margin-bottom: 1rem;
+        flex-grow: 1;
+        margin-left: 1rem;
+        font-size: 14pt;
+        font-weight: 600;
+        border: solid 1px #898989;
+    }
+    
+    .form-tendaysfree input[type="submit"] {
+        background-color: #4fafb7;
+        color: white;
+        width: 20rem;
+        padding: 5px 2rem;
+        border-radius: .3rem;
+        border: none;
+        margin: 2rem 0 4rem;
+        text-align: center;
+        transition: .5s;
+    }
+    
+    .form-tendaysfree input[type="submit"]:hover {
+        background-color: transparent;
+        color: #4fafb7;
+        transition: .5s;
+    }
+    /*conteúdo inferior da pag antes do footer*/
+    
+    .content-icons {
+        background-color: #c6c6c6;
+    }
+    
+    .content-image-text {
+        display: block;
+        width: min-content;
+        text-align: center;
+        font-size: 16pt;
+    }
+    
+    .conteudo {
+        justify-content: space-between;
+        height: max-content;
+        align-items: baseline;
+    }
+    
+    .conteudo img {
+        width: 13rem;
+        height: 13rem;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .second-content {
+        margin-top: 3rem;
+    }
     /*===============================================================================*/

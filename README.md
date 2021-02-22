@@ -34,3 +34,8 @@ Finalização da página de reclame. Adicionado a estilização dos inputs
 Enviar; Cancelar e Apagar tudo.
 
 Adicionada a página de 10 dias grátis, também utilizando a mesma folha de estilos. 
+
+21/02/2021:
+
+finalização da página de 10 dias grátis, adicionando o formulario e estilizando com as mesmas folhas de estilos já citadas anteriormente.
+OBS: Fazer um debug de todos os códigos para fazer uma atualização do conteúdo com a finalidade de diminuit o tamanho dos códigos ocupando menos espaço da memoria do dispositivo ou onde iremos hospedar este site.

@@ -39,3 +39,9 @@ Adicionada a página de 10 dias grátis, também utilizando a mesma folha de est
 
 finalização da página de 10 dias grátis, adicionando o formulario e estilizando com as mesmas folhas de estilos já citadas anteriormente.
 OBS: Fazer um debug de todos os códigos para fazer uma atualização do conteúdo com a finalidade de diminuit o tamanho dos códigos ocupando menos espaço da memoria do dispositivo ou onde iremos hospedar este site.
+
+23/02/2021:
+
+Atualização da pagina de teste 10 dias gratis. Alinhamento dos componentes na da section, onde as divs com imagem e texto de dicas são alinhados verticalmente, além de aproximá-los um do outro.
+
+Também foi alterada a cor no root de cinza para branco. Mas nada definido até o momento.

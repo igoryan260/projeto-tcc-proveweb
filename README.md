@@ -45,3 +45,11 @@ OBS: Fazer um debug de todos os códigos para fazer uma atualização do conteú
 Atualização da pagina de teste 10 dias gratis. Alinhamento dos componentes na da section, onde as divs com imagem e texto de dicas são alinhados verticalmente, além de aproximá-los um do outro.
 
 Também foi alterada a cor no root de cinza para branco. Mas nada definido até o momento.
+
+24/02/2021:
+
+Hoje foi alterada poucas coisa:
+
+ - Na página de "10 dias grátis", foi adicionado o pseudo elemento, na forma de um triângulo para dar um efeito de continuidade da parte branca (onde encontra o formulário).
+ - Na pagina reclame, foi alterado o input type text para textarea. Onde a pessoa poderá escrever sua reclamação.
+ - Também utilizei o atributo "autofocus" para quando o usuário entrar na página, automáticamente o ponteiro do mouser ja vai no primeiro input do formulário (nome).

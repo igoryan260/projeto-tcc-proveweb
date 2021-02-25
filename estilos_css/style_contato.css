@@ -232,6 +232,9 @@ a {
 
 #problemaReclame {
     height: 350px;
+    width: 480px;
+    padding: 1rem;
+    font-size: 1rem;
 }
 
 #reset {
@@ -425,6 +428,7 @@ a {
     align-items: left;
     font-size: 14pt;
     font-weight: 800;
+    position: relative;
 }
 
 .form-tendaysfree h4 {
@@ -455,13 +459,21 @@ a {
     border: none;
     margin: 2rem 0 4rem;
     text-align: center;
-    transition: .5s;
 }
 
 .form-tendaysfree input[type="submit"]:hover {
     background-color: transparent;
     color: #4fafb7;
     transition: .5s;
+}
+
+
+/*pseudo element image triangular para baixo*/
+
+.form-tendaysfree::after {
+    content: url(../images/pseudo-image001.png);
+    position: absolute;
+    transform: translate(190%, 374%);
 }
 
 

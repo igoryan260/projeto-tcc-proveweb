@@ -58,7 +58,7 @@
                     <div class="form-dados-pessoais width-input-default">
                         <div>
                             <label for="nameReclame">Nome</label>
-                            <input type="text" name="name" id="nameReclame"></div> <br />
+                            <input type="text" name="name" id="nameReclame" autofocus></div> <br />
                         <div>
                             <label for="emailReclame">E-mail</label>
                             <input type="email" name="email" id="emailReclame">
@@ -69,14 +69,15 @@
                         </div> <br />
                         <div id="informar-problema">
                             <label for="probelmaReclame">Informe o <br />Problema</label>
-                            <input type="text" name="problema" id="problemaReclame">
+
+                            <textarea rows="20" cols="50" name="problema" id="problemaReclame"></textarea>
                         </div>
                     </div>
 
                     <div class="form-forma-contato">
                         <h3> Como quer que façamos o contato?</h3>
-                        <input type="radio" name="contatarCliente" id="email"><label for="email"><button></button>E-mail</label>
-                        <input type="radio" name="contatarCliente" id="telefone"><label for="telefone"><button></button>Telefone</label>
+                        <input type="radio" name="contatarCliente" id="email"><label for="email"><button disabled></button>E-mail</label>
+                        <input type="radio" name="contatarCliente" id="telefone"><label for="telefone"><button disabled></button>Telefone</label>
                         <br />
                         <input type="reset" value="Apagar Tudo" id="reset">
                     </div>

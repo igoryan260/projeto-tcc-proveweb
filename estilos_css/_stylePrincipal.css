@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #898989;
+}
+
+html {
+    font-family: Montserrat;
+}
+
+
+/*Tamanhos de tela width screen*/
+
+.width-delimited-100 {
+    max-width: 90%;
+    margin: 0rem 3rem;
+}
+
+.screen-width {
+    width: 100%
+}
+
+
+/*===========================*/
+
+
+/* Nav menu, menu de navegação */
+
+
+/*logo*/
+
+.logo {
+    width: 130px;
+    height: 22px;
+    top: -10px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*=====================================================================================================*/
+
+.nav-menu.background {
+    height: 50px;
+    border-bottom: solid #a9aaa9 3px;
+    background-color: white;
+}
+
+.content-nav-menu {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    float: right;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menu-principal ul li {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+
+/* ==================================*/
+
+
+/*formatação dos links no menu */
+
+.menu-principal a {
+    font-size: 14pt;
+    font-weight: 600;
+    text-decoration: none;
+    color: #f7931e;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.menu-principal a:hover {
+    color: #00a99d;
+}
+
+.menu-principal #ten-days-free {
+    background-color: #00a99d;
+    color: white;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+    width: 12rem;
+    padding: .3rem .7rem;
+    transition-duration: .5s;
+}
+
+.menu-principal #ten-days-free:hover {
+    background-color: white;
+    color: #00a99d;
+    transition-duration: .5s;
+}
+
+
+/* Footer */
+
+footer p {
+    color: white;
+}
+
+.h2 h2 {
+    font-size: 23pt;
+    font-weight: bold;
+    color: #2e2e2e;
+}
+
+.content-footer {
+    position: relative;
+    max-width: max-content;
+    margin: auto;
+    color: white;
+}
+
+.icon-proveweb {
+    margin: auto;
+    max-width: min-content;
+    display: block;
+}
+
+.img-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.img-icon img {
+    margin-top: 30px;
+}
+
+
+/*==========================*/
+
+
+/*Top-footer */
+
+#links-footer {
+    margin-top: 45px;
+    display: inline-flex;
+    align-items: center;
+}
+
+#links-footer ul li {
+    display: inline-flex;
+    margin-right: 30px;
+}
+
+#links-footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* social media   redes sociais*/
+
+.fab {
+    font-size: 40px;
+    color: #2e2e2e;
+}
+
+.fa-linkedin-in {
+    margin-left: 70px;
+}
+
+
+/*===========================================*/
+
+
+/*Top-footer background */
+
+.top-background-footer {
+    width: 100%;
+    height: 250px;
+    background-color: #545454;
+}
+
+
+/*=============================================*/
+
+
+/*Top-footer background */
+
+.bottom-background-footer {
+    height: 85px;
+    background-color: #202020;
+    display: flex;
+}
+
+.content-bottom-footer {
+    margin: auto;
+    position: relative;
+    align-items: center;
+}
+
+
+/*=============================================*/
+
+
+/* Configuração semelhante dos titulos das páginas: Reclame, Duvidas, Sobre nós etc*/
+
+.background-gradient-title {
+    background: -moz-linear-gradient(180deg, #4d8fd0, #53df90);
+    background: -webkit-linear-gradient(180deg, #4d8fd0, #53df90);
+    height: max-content;
+    position: relative;
+    display: flex;
+    padding: 9rem 0;
+}
+
+.title-principal {
+    max-width: max-content;
+    max-height: max-content;
+    margin: auto;
+    margin-left: 8rem;
+    font-size: 23pt;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.title-principal h1 {
+    color: white;
+}
+
+.title-principal p {
+    color: white;
+    font-weight: 100;
+    font-size: 45pt;
+    margin-left: 1rem;
+}
+
+
+/*===================================================================================================*/

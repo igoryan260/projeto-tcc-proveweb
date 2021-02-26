@@ -1,0 +1,19 @@
+.paragraph-are-we {
+    margin: 9rem 6rem 14rem;
+    font-size: 22pt;
+    font-weight: 500;
+}
+
+.paragraph-are-we p {
+    margin-top: 2rem;
+}
+
+.citation-are-we {
+    display: flex;
+    float: right;
+    margin-top: 4rem;
+    text-align: right;
+}
+
+
+/*=========================================================*/

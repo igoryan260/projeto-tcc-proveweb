@@ -1,0 +1,91 @@
+/* Background do Contato Proveweb */
+
+.message {
+    max-height: max-content;
+    max-width: max-content;
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.message h2 {
+    font-size: 27pt;
+    font-weight: 400;
+    color: #4fafb7;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.message p {
+    margin-top: 3rem;
+    margin-left: 3.3rem;
+    font-size: 14pt;
+    font-weight: 400;
+}
+
+
+/*========================================================*/
+
+
+/* Contat proveweb */
+
+.content-contat {
+    max-height: max-content;
+    max-height: max-content;
+    margin-top: 4rem;
+    position: relative;
+    display: flex;
+    align-content: left;
+}
+
+
+/* Formatação dos links*/
+
+.contat-links {
+    margin: 0px auto 5rem;
+}
+
+.contat-links ul {
+    list-style: none;
+}
+
+.contat-links li {
+    margin-top: 70px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*=====================================================*/
+
+
+/*Formatação dos ícones*/
+
+.contat-links .icon {
+    font-size: 30pt;
+    color: #898989;
+    /*alinhamento dos icones com o texto*/
+    align-items: center;
+    display: flex;
+}
+
+.text-link-contat {
+    font-style: normal;
+    font-family: 'montserrat';
+    font-size: 14pt;
+    font-weight: 400;
+    margin-left: 2rem;
+}
+
+.style-hover-link:hover {
+    color: #4fafb7;
+}
+
+
+/*=========================================================*/
+
+
+/*========================================================*/

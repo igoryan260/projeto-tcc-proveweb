@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #898989;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    align-items: center;
+}
+
+.conteudo-principal {
+    display: flex;
+    width: 570px;
+    height: 600px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-content {
+    position: absolute;
+}
+
+.second-content {
+    display: none;
+}

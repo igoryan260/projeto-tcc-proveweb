@@ -53,3 +53,9 @@ Hoje foi alterada poucas coisa:
  - Na página de "10 dias grátis", foi adicionado o pseudo elemento, na forma de um triângulo para dar um efeito de continuidade da parte branca (onde encontra o formulário).
  - Na pagina reclame, foi alterado o input type text para textarea. Onde a pessoa poderá escrever sua reclamação.
  - Também utilizei o atributo "autofocus" para quando o usuário entrar na página, automáticamente o ponteiro do mouser ja vai no primeiro input do formulário (nome).
+
+ 25/02/2021:
+
+ Alteração nos estilos CSS's para organização de código. Onde terá uma estilização comum entre as páginas, e outros estílos específico de cada página.
+
+- Adicionado a pagina de login e cadastro e folha de estilos para a mesma.

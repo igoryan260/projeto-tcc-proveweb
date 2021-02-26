@@ -1,0 +1,20 @@
+/*PAGINA 'DUVIDAS' */
+
+.questions {
+    margin: 9rem 4.8rem;
+}
+
+.questions h1 {
+    color: #898989;
+    font-size: 20pt;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+}
+
+.questions p {
+    font-size: 15pt;
+    margin-bottom: 1rem;
+}
+
+
+/*=====================================================================================*/

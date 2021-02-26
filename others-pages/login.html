@@ -6,14 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../estilos_css/_stylePrincipal.css">
-    <link rel="stylesheet" href="../estilos_css/_reclame.css">
+    <link rel="stylesheet" href="../estilos_css/tela_de_cadastro.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7c25744412.js" crossorigin="anonymous"></script>
-    <title>Reclame</title>
+    <title>ProveWeb - Cadastre-se ou efetue o login</title>
 </head>
 
 <body>
-
     <!-- Menu  de  Navegação -->
     <div class="nav-menu background">
         <div class="width-delimited-100">
@@ -37,60 +36,38 @@
     </div>
     <!-- Fim do menu de navegação -->
 
-    <main>
-        <section>
-            <!-- Início do conteúdo da página-->
-            <div class="background-gradient-title">
-                <div class="title-principal">
-                    <h1>Reclame</h1>
-                </div>
-            </div>
-            <!-- Fim do conteúdo inicial da pag-->
-        </section>
-    </main>
+    <!-- Conteúdo principal-->
 
-    <div class="width-delimited-100">
-        <section class="formulario-reclame">
-
-            <div class="form-reclame">
-                <h2>Preencha os dados e nos envie a reclamação agora mesmo</h2>
-                <form action="#" name="form-reclame" id="reclame">
-                    <div class="form-dados-pessoais width-input-default">
-                        <div>
-                            <label for="nameReclame">Nome</label>
-                            <input type="text" name="name" id="nameReclame" autofocus></div> <br />
-                        <div>
-                            <label for="emailReclame">E-mail</label>
-                            <input type="email" name="email" id="emailReclame">
-                        </div> <br />
-                        <div>
-                            <label for="telefoneReclame">Telefone</label>
-                            <input type="tel" name="telefone" id="telefoneReclame">
-                        </div> <br />
-                        <div id="informar-problema">
-                            <label for="probelmaReclame">Informe o <br />Problema</label>
-
-                            <textarea rows="20" cols="50" name="problema" id="problemaReclame"></textarea>
-                        </div>
-                    </div>
-
-                    <div class="form-forma-contato">
-                        <h3> Como quer que façamos o contato?</h3>
-                        <input type="radio" name="contatarCliente" id="email"><label for="email"><button disabled></button>E-mail</label>
-                        <input type="radio" name="contatarCliente" id="telefone"><label for="telefone"><button disabled></button>Telefone</label>
-                        <br />
-                        <input type="reset" value="Apagar Tudo" id="reset">
-                    </div>
-
-                    <div id="submit_cancel-button">
-                        <input type="submit" name="enviar" value="Enviar">
-                        <input type="button" name="cancelar" value="Cancelar">
-                    </div>
+    <div class="content">
+        <div class="container conteudo-principal">
+            <div class="first-content">
+                <h1>Cadastrar</h1>
+                <!-- Cadastro  -->
+                <form class="form-cadastro form">
+                    <label for="name">Nome</label><input type="text" name="nome" id="nome" autofocus>
+                    <label for="email">E-mail</label><input type="mail" name="email" id="email">
+                    <label for="password">Senha</label><input type="password" name="senha" id="password">
+                    <label for="confirm-password">Confirme a senha</label><input type="password" name="confirmar-senha" id="confirm-password">
+                    <label for="nascimento">Data de nascimento</label><input type="date" name="dataNascimento" id="nascimento">
+                    <button>Cadastrar</button>
                 </form>
             </div>
+            <div class="second-content">
+                <!-- Login -->
+                <h1>login</h1>
+                <form class="form-login form">
 
-        </section>
+                    <label for="email">E-mail</label><input type="mail" name="email" id="email">
+                    <label for="password">Senha</label><input type="password" name="senha" id="password">
+
+                    <button>Fazer login</button>
+                </form>
+            </div>
+        </div>
     </div>
+    </div>
+
+    <!-- Fim conteúdo principal-->
 
     <!-- Rodapé-->
     <footer>
@@ -111,7 +88,7 @@
                 <div id="links-footer">
 
                     <ul class="links">
-                        <li><a href="#">Reclame</a></li>
+                        <li><a href="./reclame.html">Reclame</a></li>
                         <li><a href="./duvidas.html">Dúvidas</a></li>
                         <li><a href="./sobreNos.html">Sobre nós</a></li>
                         <li><a href="#">Cancelar Planos</a></li>

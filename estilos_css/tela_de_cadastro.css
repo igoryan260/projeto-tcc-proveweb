@@ -81,6 +81,10 @@ form {
     height: 40px;
 }
 
+.title-form h1 {
+    cursor: pointer;
+}
+
 
 /* o código abaixo representa o titulo com diferentes estilos quando está acionado, ou seja, quando o usuário estiver utilizando esta página*/
 

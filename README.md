@@ -63,3 +63,5 @@ Hoje foi alterada poucas coisa:
 28/02/2021:
 
 Terminando alguns estilos e alinhamentos da página de login e cadastro. Utilizei vários elementos do CSS ao meu favor para que tudo ocorresse bem.
+
+Adicionando um arquivo JS para ser linkada à página de login e cadastro. Utilizei os códigos próprios de javascript para trocar de conteúdo na tela quando necessário. Isso acontecerá após o clique na div que carrega um "h1", que é um titulo do formulário.

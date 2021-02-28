@@ -40,29 +40,73 @@
 
     <div class="content">
         <div class="container conteudo-principal">
-            <div class="first-content">
-                <h1>Cadastrar</h1>
-                <!-- Cadastro  -->
-                <form class="form-cadastro form">
-                    <label for="name">Nome</label><input type="text" name="nome" id="nome" autofocus>
-                    <label for="email">E-mail</label><input type="mail" name="email" id="email">
-                    <label for="password">Senha</label><input type="password" name="senha" id="password">
-                    <label for="confirm-password">Confirme a senha</label><input type="password" name="confirmar-senha" id="confirm-password">
-                    <label for="nascimento">Data de nascimento</label><input type="date" name="dataNascimento" id="nascimento">
-                    <button>Cadastrar</button>
-                </form>
-            </div>
-            <div class="second-content">
-                <!-- Login -->
+            <!-- Login -->
+            <div class="title-form-login title-form active">
                 <h1>login</h1>
-                <form class="form-login form">
-
-                    <label for="email">E-mail</label><input type="mail" name="email" id="email">
-                    <label for="password">Senha</label><input type="password" name="senha" id="password">
-
-                    <button>Fazer login</button>
-                </form>
             </div>
+
+            <!-- Titulo do cadastro-->
+            <div class="title-form-cadastro title-form ">
+                <h1>Cadastrar</h1>
+            </div>
+
+            <!-- Tela de cadastro -->
+            <div class="first-content">
+
+                <div class="desactive-content">
+                    <!-- esta div abaixo é a imagem de um usuário como background-->
+                    <div class="img-login-sign">
+                        <i class="far fa-user"></i>
+                    </div>
+                    <!-- Cadastro  -->
+                    <form class="form-cadastro form">
+                        <div class="inputs">
+                            <div>
+                                <label for="name">Nome</label><input type="text" name="nome" id="nome" autofocus>
+                            </div>
+                            <div>
+                                <label for="email">E-mail</label><input type="mail" name="email" id="email">
+                            </div>
+                            <div>
+                                <label for="password">Senha</label><input type="password" name="senha" id="password">
+                            </div>
+                            <div>
+                                <label for="confirm-password">Confirme a senha</label><input type="password" name="confirmar-senha" id="confirm-password">
+                            </div>
+                            <div>
+                                <label for="nascimento">Data de nascimento</label><input type="date" name="dataNascimento" id="nascimento">
+                            </div>
+                        </div>
+                        <button>Cadastrar</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Tela de login -->
+            <div class="second-content">
+
+
+
+                <div class="">
+                    <div class="img-login-sign">
+                        <i class="far fa-user"></i>
+                    </div>
+                    <form class="form-login form">
+                        <div class="inputs">
+
+                            <div>
+                                <label for="email">E-mail</label><input type="mail" name="email" id="email">
+                            </div>
+                            <div>
+                                <label for="password">Senha</label><input type="password" name="senha" id="password">
+                            </div>
+
+                        </div>
+                        <button>Fazer login</button>
+                    </form>
+                </div>
+            </div>
+
         </div>
     </div>
     </div>

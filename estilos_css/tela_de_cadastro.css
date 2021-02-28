@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #898989;
+    background-color: #c6c6c6;
 }
 
 .content {
@@ -16,23 +16,147 @@ body {
 }
 
 .conteudo-principal {
+    border-radius: 0rem 0rem .5rem .5rem;
     display: flex;
     width: 570px;
+    position: relative;
     height: 600px;
     background-color: white;
     align-items: center;
     justify-content: center;
 }
 
-.form {
+
+/* Imagem de fundo de account*/
+
+.img-login-sign {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.img-login-sign i {
+    font-size: 10rem;
+    color: #4fafb7;
+}
+
+.fa-user {
+    width: max-content;
+    height: max-content;
+}
+
+
+/*Fontes do fomulário*/
+
+form {
+    font-weight: 700;
+    width: max-content;
+    justify-content: center;
     display: flex;
     flex-direction: column;
 }
 
+
+/* a classe "first content" é da tela de cadastro*/
+
 .first-content {
-    position: absolute;
+    position: relative;
 }
 
-.second-content {
+
+/*Mudando o estilo do título, "Cadastro" ou "Login"*/
+
+.title-form-cadastro {
+    top: -6.7%;
+    left: -0%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.title-form {
+    background-color: #a9aaa9;
+    border-radius: .3rem .3rem 0 0;
+    width: 280px;
+    height: 40px;
+}
+
+
+/* o código abaixo representa o titulo com diferentes estilos quando está acionado, ou seja, quando o usuário estiver utilizando esta página*/
+
+.active {
+    background-color: white;
+    border-radius: .3rem .3rem 0 0;
+}
+
+.active h1 {
+    color: #4fafb7;
+}
+
+
+/*Nos código abaixo, eu resolvi fazer um alinhamento justificado entre os elementos label e inputs. Para tanto utilizei os seguintes códigos*/
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.inputs div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs div input {
+    flex-grow: 1;
+    max-width: 320px;
+    margin-bottom: .6rem;
+}
+
+.inputs div label {
+    flex-grow: 0;
+    margin-right: 1rem;
+    color: #4fafb7;
+}
+
+
+/* isso servirá tanto para um forulário quanto para o outro*/
+
+.desactive-content {
     display: none;
+}
+
+
+/*alinhamento do titulo de login, que fica no lado direito superior do formulario*/
+
+.title-form-login {
+    position: absolute;
+    padding: 0 4rem;
+    top: -6.7%;
+    left: 50.9%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Formatação do botão*/
+
+.form button {
+    background-color: #4fafb7;
+    border: none;
+    color: white;
+    width: 250px;
+    height: 30px;
+    border-radius: 3rem;
+    font-size: 15pt;
+    font-weight: 600;
+    margin: 3rem auto;
+    transition: .2s;
+}
+
+.form button:hover {
+    color: #4fafb7;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .2s;
 }

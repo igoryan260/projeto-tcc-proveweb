@@ -59,3 +59,7 @@ Hoje foi alterada poucas coisa:
  Alteração nos estilos CSS's para organização de código. Onde terá uma estilização comum entre as páginas, e outros estílos específico de cada página.
 
 - Adicionado a pagina de login e cadastro e folha de estilos para a mesma.
+
+28/02/2021:
+
+Terminando alguns estilos e alinhamentos da página de login e cadastro. Utilizei vários elementos do CSS ao meu favor para que tudo ocorresse bem.

@@ -1,0 +1,79 @@
+/* Parte da imagem de fundo e titulo da pagina */
+
+body {
+    background-color: #a9aaa9;
+}
+
+.section-PP {
+    position: relative;
+    height: 906px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-title-page {
+    height: max-content;
+    display: flex;
+    width: 100%;
+}
+
+.img-title-page img {
+    z-index: -1;
+    position: absolute;
+    max-width: 1360px;
+    min-height: 906px;
+}
+
+.img-title-page h1 {
+    color: white;
+    text-align: center;
+    z-index: 2;
+    font-weight: 500;
+    font-size: 80pt;
+    position: absolute;
+    top: 55%;
+    left: 7%;
+}
+
+h1 i {
+    color: #00a99d;
+    font-style: normal;
+}
+
+
+/*================================================================*/
+
+
+/* estilização do formulário do personalize seu plano*/
+
+.section-pp {
+    width: 100%;
+    display: flex;
+}
+
+.content-form-pp {
+    border-radius: 1rem;
+    background-color: white;
+    width: 50rem;
+    margin: 1rem auto 3rem;
+    max-width: max-content;
+    padding: 1rem 3rem;
+    box-shadow: black 0rem 0rem 1rem;
+}
+
+
+/* estilização dos inputs */
+
+.inputs-marcaveis {
+    flex-direction: column;
+    display: inline-flex;
+    width: 100%;
+}
+
+.inputs-marcaveis div input {
+    margin-right: 1rem;
+}
+
+.inputs-marcados div input {
+    margin-right: 1rem;
+}

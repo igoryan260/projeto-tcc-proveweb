@@ -65,3 +65,9 @@ Hoje foi alterada poucas coisa:
 Terminando alguns estilos e alinhamentos da página de login e cadastro. Utilizei vários elementos do CSS ao meu favor para que tudo ocorresse bem.
 
 Adicionando um arquivo JS para ser linkada à página de login e cadastro. Utilizei os códigos próprios de javascript para trocar de conteúdo na tela quando necessário. Isso acontecerá após o clique na div que carrega um "h1", que é um titulo do formulário.
+
+02/03/2021 e 03/03/2021:
+
+- adicionando a tela de plano personalizável e estilizaçoes desta página. Até o momento não está finalizado, porém grande parte de alinhamentos, inputs e containers já estão posicionados e estilizados. 
+
+- será feita uma estilizaçaõ diferente no valor total. lá teremos numerção maior que a outra além da palavra "mês" estar flutuando à direita do valor total do plano pretendido pelo usuário. Se tiver acesso, veja o desenho do layout planejado.

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos_css/_stylePrincipal.css">
+    <link rel="stylesheet" href="../estilos_css/_personalizePlan.css">
+    <title>Personalize seu Plano</title>
+</head>
+
+<body>
+    <!-- Menu  de  Navegação -->
+    <div class="nav-menu background">
+        <div class="width-delimited-100">
+            <div class="content-nav-menu">
+                <div class="logo">
+                    <img src="../images/Logo-ProveWeb.png" alt="logotipo" />
+                </div>
+                <nav class="menu-principal">
+
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="#">Planos e Serviços</a></li>
+                        <li><a href="./sobreNos.html">Conheça-nos</a></li>
+                        <li><a href="./contat.html">Contato</a></li>
+                        <li><a href="./10daysfree.html" id="ten-days-free">10 dias GRÁTIS</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Fim do menu de navegação -->
+
+    <!-- Topo da página e título -->
+    <section class="section-PP">
+        <div class="img-title-page">
+            <img src="../images/degradê-personalizePlan.png">
+            <h1>Personalize <br /> seu <i>Plano</i></h1>
+        </div>
+    </section>
+    <!-- Fim do topo e título-->
+
+    <!-- Formulário -->
+    <section class="section-pp">
+        <div class="content-form-pp">
+
+            <form class="form-pp">
+                <legend>
+                    <h2>Selecione o que você precisa:</h2>
+                </legend>
+
+                <div class="inputs-marcaveis">
+                    <div>
+                        <input type="checkbox" name="pro-dt-festivas" id="prdf"> <label for="prdf">Promoções para Datas Festivas</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Aniver-client" id="a-cli"> <label for="a-cli">Aniversário (Clientes)</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="aniver-estim-client" id="a-estim-client"> <label for="a-estim-client">Aniversário (Animal de estimação do Cliente)</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="emissao-boletos" id="boleto-emissao"> <label for="boleto-emissao">Emissão de Boletos</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="controle-financeiro" id="finances-controler-basic"> <label for="finances-controler-basic">Controle Financeiro (Básico)</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="notification-venc-prod-lote" id="notifProd_lote"> <label for="notifProd_lote">Notificação Venc. do Produto por Lote</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="funcionary-quem-pode-acessar" id="funcionary"> <label for="funcionary">Funcionário (Quem pode acessar)</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="boletos-ilimitados" id="boleto-sem-limite"> <label for="boleto-sem-limite">Boletos ilimitados</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="emissao-nfe-ilimitadas" id="nfe-ilimitadas"> <label for="nfe-ilimitadas">Emissões de notas fiscais eletrônicas ilimitadas</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="controle-de-estoque" id="controle-estoque"> <label for="controle-estoque">Controle de estoque</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="conciliacao-bancaria" id="conciliation"> <label for="conciliation">Conciliação</label>
+
+                    </div>
+                    <div>
+                        <input type="checkbox" name="notificacao-tempo-de-cadastro" id="time-of-sign"> <label for="time-of-sign">Notificações de tempo de cadastro</label>
+                    </div>
+
+                    <h3>Selecione quantas NF-e quer emitir por mês</h3>
+
+                    50 NF-e por mês 110 NF-e por mês 150 NF-e por mês 200 NF-e por mês
+                </div>
+
+                <h3>O que já vem:</h3>
+
+                <div class="inputs-marcados">
+                    <div>
+                        <input type="checkbox" name="gestao-estoque" id="ges-estoque" checked readonly><label for="ges-estoque">Gestão de estoque</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="impressao-relatorios-mensais" id="relatorios-mensais" checked readonly><label for="relatorios-mensais">Impressão de Relatórios Mensais</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="impressao-notas-fiscais" id="nf" checked readonly><label for="nf">Impressão de notas fiscais</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="gestao-fluxo-caixa" id="gest-fluxo-caixa" checked><label for="gest-fluxo-caixa">Gestão de fluxo de caixa</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="controle-pacotes-mensais" id="control-packages" checked readonly><label for="control-packages">Controle de Pacotes Mensais (Banhos, tosas etc.)</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="continue">Continuar</button>
+
+                <div class="valor-total">
+                    <h5>Cálculo Total</h5>
+                    <p> R$ <em id="valor">60,</em>00 <em id="mes">/mês</em></p>
+                </div>
+                <a href="#">Voltar</a>
+            </form>
+
+        </div>
+    </section>
+    <!-- Fim do  formulário -->
+    <footer>
+        <div class="top-background-footer">
+            <div class="content-footer">
+                <div class="icon-proveweb h2">
+                    <div class="img-icon">
+                        <figcaption>
+                            <img src="../images/Ícone-prove.png">
+                        </figcaption>
+                    </div>
+                    <div class="center icon-proveweb">
+                        <h2>
+                            ProveWeb
+                        </h2>
+                    </div>
+                </div>
+                <div id="links-footer">
+
+                    <ul class="links">
+                        <li><a href="./reclame.html">Reclame</a></li>
+                        <li><a href="./duvidas.html">Dúvidas</a></li>
+                        <li><a href="./sobreNos.html">Sobre nós</a></li>
+                        <li><a href="#">Cancelar Planos</a></li>
+                    </ul>
+                    <ul class="social-media">
+                        <li>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="bottom-background-footer">
+            <div class="content-bottom-footer content-footer">
+                <p>
+                    Produzido e Desenvolvido por &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Nome da equipe'
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

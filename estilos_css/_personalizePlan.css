@@ -1,5 +1,9 @@
 /* Parte da imagem de fundo e titulo da pagina */
 
+* {
+    color: #a9aaa9;
+}
+
 body {
     background-color: #a9aaa9;
 }
@@ -70,10 +74,124 @@ h1 i {
     width: 100%;
 }
 
-.inputs-marcaveis div input {
+.form-pp div input {
     margin-right: 1rem;
 }
 
-.inputs-marcados div input {
-    margin-right: 1rem;
+.form-pp input[type="checkbox"] {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #a9aaa9;
+}
+
+.form-pp input[type="checkbox"]:hover {
+    border: #696969 solid 1px;
+}
+
+.form-pp input[type="checkbox"]:checked {
+    background-color: #a9aaa9;
+}
+
+.inputs-marcaveis div {
+    display: inline-flex;
+    align-items: center;
+}
+
+.inputs-marcados {
+    margin-bottom: 2rem;
+    /* Afastamento da div para melhorar leitura na parte inferior*/
+}
+
+
+/*estilização dos inputs radios*/
+
+.inputs-radios {
+    width: 20rem;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 2rem 0 2rem 3rem;
+}
+
+
+/*====================================================================*/
+
+
+/* Estilizaçao de textos */
+
+
+/*h2*/
+
+.form-pp h2 {
+    font-size: 29pt;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.form-pp h3 {
+    font-size: 17pt;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+
+/*Estilizando botao continuar*/
+
+.continue {
+    border: none;
+    width: 20rem;
+    height: 3rem;
+    border-radius: .3rem;
+    background-color: #00a99d;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    font-size: 27pt;
+    margin-bottom: 1rem;
+    margin-right: 20px;
+}
+
+.continue {
+    transition: .3s;
+}
+
+.continue:hover {
+    background-color: transparent;
+    color: #00a99d;
+    transition: .3s;
+}
+
+
+/*alinhando o botao com o valor total*/
+
+.finalizacao-form {
+    display: inline-flex;
+}
+
+
+/*formatando texto do valor total*/
+
+.valor-total h5 {
+    font-size: 15pt;
+    font-weight: 600;
+}
+
+.valor-total p {
+    position: relative;
+    font-size: 10pt;
+    font-weight: 400;
+}
+
+.cifrao {
+    font-size: 15pt;
+}
+
+#valor {
+    font-size: 34pt;
+}
+
+#mes {
+    position: absolute;
+    top: 15px;
 }

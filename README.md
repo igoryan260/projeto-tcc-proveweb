@@ -71,3 +71,6 @@ Adicionando um arquivo JS para ser linkada à página de login e cadastro. Utili
 - adicionando a tela de plano personalizável e estilizaçoes desta página. Até o momento não está finalizado, porém grande parte de alinhamentos, inputs e containers já estão posicionados e estilizados. 
 
 - será feita uma estilizaçaõ diferente no valor total. lá teremos numerção maior que a outra além da palavra "mês" estar flutuando à direita do valor total do plano pretendido pelo usuário. Se tiver acesso, veja o desenho do layout planejado.
+
+- finalização da estilização da página de personalizar o plano.
+- Atualização dos links.

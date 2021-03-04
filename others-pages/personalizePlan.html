@@ -90,10 +90,23 @@
                     <div>
                         <input type="checkbox" name="notificacao-tempo-de-cadastro" id="time-of-sign"> <label for="time-of-sign">Notificações de tempo de cadastro</label>
                     </div>
+                </div>
 
+                <div class="inputs-radios">
                     <h3>Selecione quantas NF-e quer emitir por mês</h3>
 
-                    50 NF-e por mês 110 NF-e por mês 150 NF-e por mês 200 NF-e por mês
+                    <div>
+                        <input type="radio" name="nfe" id="50nfe"><label for="50nfe">50 NF-e por mês</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="nfe" id="110nfe"><label for="110nfe">110 NF-e por mês</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="nfe" id="150nfe"><label for="150nfe">150 NF-e por mês</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="nfe" id="200nfe"><label for="200nfe">200 NF-e por mês</label>
+                    </div>
                 </div>
 
                 <h3>O que já vem:</h3>
@@ -116,13 +129,15 @@
                     </div>
                 </div>
 
-                <button type="submit" class="continue">Continuar</button>
+                <div class="finalizacao-form">
+                    <button type="submit" class="continue">Continuar</button>
 
-                <div class="valor-total">
-                    <h5>Cálculo Total</h5>
-                    <p> R$ <em id="valor">60,</em>00 <em id="mes">/mês</em></p>
+                    <div class="valor-total">
+                        <h5>Cálculo Total</h5>
+                        <p> <em class="cifrao">R$</em> <em id="valor">60,</em>00 <em id="mes">/mês</em></p>
+                    </div>
                 </div>
-                <a href="#">Voltar</a>
+                <a href="#"><br />Voltar</a>
             </form>
 
         </div>

@@ -74,3 +74,10 @@ Adicionando um arquivo JS para ser linkada à página de login e cadastro. Utili
 
 - finalização da estilização da página de personalizar o plano.
 - Atualização dos links.
+
+05/03/2021:
+
+- Adicionada a pagina de planos e serviços e estilização do conteúdo de cards, onde o usuário irá clicar e ser redirecionado ao detalhamento.
+- Até agora não foi conluida esta parte. 
+
+- também falta fazer revisão na tela de personalizar o plano. (Dia 05/03/2021, tela em pendência)

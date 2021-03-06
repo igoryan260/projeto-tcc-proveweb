@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../estilos_css/_stylePrincipal.css">
-    <link rel="stylesheet" href="../estilos_css/_tenDaysFree.css">
+    <link rel="stylesheet" href="../estilos_css/_planosServicos.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7c25744412.js" crossorigin="anonymous"></script>
-    <title>Teste grátis</title>
+    <title>Planos e serviços</title>
 </head>
 
 <body>
+
     <!-- Menu  de  Navegação -->
     <div class="nav-menu background">
         <div class="width-delimited-100">
@@ -24,10 +25,10 @@
 
                     <ul>
                         <li><a href="../index.html">Home</a></li>
-                        <li><a href="./planos_serviços.html">Planos e Serviços</a></li>
+                        <li><a href="#">Planos e Serviços</a></li>
                         <li><a href="./sobreNos.html">Conheça-nos</a></li>
                         <li><a href="./contat.html">Contato</a></li>
-                        <li><a href="#" id="ten-days-free">10 dias GRÁTIS</a></li>
+                        <li><a href="./10daysfree.html" id="ten-days-free">10 dias GRÁTIS</a></li>
                     </ul>
 
                 </nav>
@@ -36,76 +37,79 @@
     </div>
     <!-- Fim do menu de navegação -->
 
-    <!-- Cabeçalho header-->
+    <!-- Parte do topo do site -->
 
-    <header id="header-10daysfree">
-        <div class="bg-days-free">
-            <img src="../images/background - 10 dias gratis.png" alt="imagem de fundo">
+    <header>
+        <div class="img-background">
+            <img src="../images/background-plansAndServices.png" alt="Plano de fundo">
         </div>
-        <div class="title-10daysfree">
-
-            <h1>Aproveite <b>10 dias</b> <br /> grátis <br /> <b>SEM COMPROMISSO</b></h1>
-
+        <div class="titlePage">
+            <p>
+                <h1>Planos e <br /> <i>Serviços</i></h1>
+            </p>
         </div>
-
     </header>
 
-    <!-- Fim cabeçalho header-->
+    <!-- fim da Parte do topo do site -->
 
-    <section class="content-1">
+    <!-- Corpo da pagina -->
 
-        <div class="container-form10daysfree">
-            <h3>PREENCHA SEUS DADOS</h3>
-            <form class="form-tendaysfree">
-                <div>
-                    <h4>DADOS PESSOAIS</h4>
-                </div>
-                <div>
-                    <label for="nome">NOME</label>
-                    <input type="text" name="name" id="nome">
-                </div>
-                <div>
-                    <label for="email">E-MAIL</label>
-                    <input type="mail" name="email">
-                </div>
-                <div>
-                    <label for="telephone">TELEFONE OU CELULAR</label>
-                    <input type="tel" name="telephone">
-                </div>
-                <div>
-                    <label for="nameOfBusiness">NOME DA EMPRESA</label>
-                    <input type="text" name="nameOfBusiness">
-                </div>
-                <input type="submit" value="Vamos lá">
-            </form>
-        </div>
+    <section class="cards-plans">
+        <div>
+            <div class="card card-1">
+                <p>
+                    <h3>Plano Econômico</h3>
+                    <!-- Este é o titulo de cada card-->
+                </p>
+                <div class="details-price">
+                    <!-- Detalhamento do preço-->
 
-    </section>
+                    <p> <i id="cifrao">R$</i> 99, <i id="centavos">00</i> <i id="mes">/mês</i></p>
 
-    <section class="content-2">
+                </div>
 
-        <div class="content-icons">
-            <div class="width-delimited-100">
-                <div class="flex conteudo">
-                    <div class="first-content content-image-text">
-                        <img src="../images/questao.png" alt="icone ponto de interrogação">
-                        <p>Aproveite para tirar todas suas dúvidas durante esse período</p>
-                    </div>
-                    <div class="second-content content-image-text">
-                        <img src="../images/acesso-vitalicio.png" alt="icone ponto de interrogação">
-                        <p>O acesso é vitalício e saia quando quiser</p>
-                    </div>
-                    <div class="third-content content-image-text">
-                        <img src="../images/globo.png" alt="icone ponto de interrogação">
-                        <p>Totalmente online. Sem necessidade de uma máquina super potente</p>
-                    </div>
+            </div>
+
+
+            <div class="card card-3">
+                <p>
+                    <h3>Plano Parcial</h3>
+                </p>
+                <div class="details-price">
+                    <p> <i id="cifrao">R$</i> 219, <i id="centavos">99</i> <i id="mes">/mês</i></p>
                 </div>
             </div>
-        </div>
 
+        </div>
+        <!-- Esta div foi criada para separar de duas em duas os cards dos planos -->
+
+
+        <div>
+            <div class="card card-2">
+                <p>
+                    <h3>Plano Completo</h3>
+                </p>
+                <div class="details-price">
+                    <p> <i id="cifrao">R$</i> 149, <i id="centavos">99</i> <i id="mes">/mês</i></p>
+                </div>
+            </div>
+
+
+            <div class="card card-4">
+                <p>
+                    <h3>Plano Super</h3>
+                </p>
+                <div class="details-price">
+                    <p> <i id="cifrao">R$</i> 259, <i id="centavos">99</i> <i id="mes">/mês</i></p>
+                </div>
+            </div>
+
+        </div>
     </section>
 
-    <!-- Rodapé-->
+    <!-- Fim do corpo da pagina-->
+
+    <!-- Fim do  formulário -->
     <footer>
         <div class="top-background-footer">
             <div class="content-footer">
@@ -155,6 +159,8 @@
             </div>
         </div>
     </footer>
+
+
 </body>
 
 </html>

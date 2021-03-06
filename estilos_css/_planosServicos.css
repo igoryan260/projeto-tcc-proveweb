@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Parte do topo do site*/
+
+header {
+    position: relative;
+    display: flex;
+    z-index: -1;
+    height: max-content;
+}
+
+.img-background {
+    position: relative;
+    width: 100%;
+    height: max-content;
+}
+
+.img-background img {
+    width: 100%;
+    overflow: hidden;
+    height: max-content;
+}
+
+.titlePage {
+    position: absolute;
+    z-index: 2;
+    top: 60%;
+    left: 55%;
+}
+
+.titlePage p h1 {
+    font-size: 80pt;
+    color: white;
+}
+
+.titlePage p h1 i {
+    font-style: normal;
+    color: #f79725;
+}
+
+
+/* fim da Parte do topo do site*/
+
+
+/* corpo da pagina */
+
+.cards-plans {
+    display: inline-flex;
+    width: 100%;
+    padding: 0 10rem;
+    align-items: center;
+    height: 1600px;
+}
+
+.cards-plans div {
+    margin: 2rem auto;
+}
+
+.card {
+    width: 360px;
+    height: 705px;
+    background-color: #4fafb7;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    transition: .3s;
+}
+
+.card:hover {
+    background-color: #f79725;
+    cursor: pointer;
+    width: 380px;
+    height: 725px;
+    transition: .3s;
+}
+
+.card h3 {
+    text-align: center;
+    top: 1rem;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 17pt;
+}
+
+
+/*Detalhe do interior de cada card*/
+
+.details-price {
+    background-color: white;
+    width: 300px;
+    height: 310px;
+    border-radius: 2rem;
+    box-shadow: black 0px 0px 10px;
+    position: relative;
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*formatando o detalhamento do preço */
+
+.details-price p {
+    color: black;
+    font-size: 60pt;
+}
+
+.details-price i {
+    font-style: normal;
+    color: black;
+}
+
+#cifrao {
+    font-size: 21pt;
+}
+
+#centavos {
+    font-size: 27pt;
+}
+
+#mes {
+    position: absolute;
+    top: 65%;
+    right: 5%;
+    font-size: 16pt;
+}

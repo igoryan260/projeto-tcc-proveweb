@@ -81,3 +81,13 @@ Adicionando um arquivo JS para ser linkada à página de login e cadastro. Utili
 - Até agora não foi conluida esta parte. 
 
 - também falta fazer revisão na tela de personalizar o plano. (Dia 05/03/2021, tela em pendência)
+
+10/03/2021
+
+- Atualização da pagina de 10 dias grátis. Foi corrigido dois bugs. O da imagem de background e do pseudo elemento que fica após o formilário.
+
+12/03/2021
+
+- Atualização da página de planos e serviços, onde o titulo ganhou novos estilos e foi alterado os cards de acordo com seu conteúdo.
+
+- Na página "reclame"  foi trocado o atributo "justify-content: end;" no formulário (usado para alinhar à direita os textos e inputs) para "justify-content: flex-end;". Isso teve que ser feito, provavelmente o chrome já aboliu o atributo "end". Agora deve ser "flex-end".

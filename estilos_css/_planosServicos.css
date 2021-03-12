@@ -17,11 +17,13 @@ header {
 .img-background {
     position: relative;
     width: 100%;
+    overflow: hidden;
     height: max-content;
 }
 
 .img-background img {
     width: 100%;
+    min-width: 1400px;
     overflow: hidden;
     height: max-content;
 }
@@ -29,18 +31,19 @@ header {
 .titlePage {
     position: absolute;
     z-index: 2;
-    top: 60%;
-    left: 55%;
+    top: 55%;
+    left: 50%;
 }
 
-.titlePage p h1 {
+.titlePage h1 {
     font-size: 80pt;
     color: white;
+    text-shadow: black 0px 0px 10px;
 }
 
-.titlePage p h1 i {
+.titlePage i {
     font-style: normal;
-    color: #f79725;
+    color: #00a99d;
 }
 
 
@@ -68,6 +71,8 @@ header {
     border-radius: 2rem;
     margin-top: 2rem;
     transition: .3s;
+    display: flex;
+    flex-direction: column;
 }
 
 .card:hover {
@@ -93,7 +98,7 @@ header {
 .details-price {
     background-color: white;
     width: 300px;
-    height: 310px;
+    height: 180px;
     border-radius: 2rem;
     box-shadow: black 0px 0px 10px;
     position: relative;
@@ -130,3 +135,15 @@ header {
     right: 5%;
     font-size: 16pt;
 }
+
+
+/*Formatação dos resources dos cards*/
+
+.list-resource li {
+    color: white;
+    font-size: 12pt;
+    margin: 0 auto 1rem;
+}
+
+
+/*===============================================================*/

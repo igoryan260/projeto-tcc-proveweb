@@ -214,10 +214,11 @@ hr {
     background: -webkit-linear-gradient(135deg, #a99a46, #38bd71);
 }
 
-.content-citation {
+.content-citation cite {
     font-size: 27pt;
     color: white;
     text-align: center;
+    font-style: normal;
 }
 
 

@@ -9,6 +9,8 @@
 
 .bg-days-free img {
     height: 100%;
+    width: 100%;
+    min-width: 1400px;
 }
 
 #header-10daysfree {
@@ -112,7 +114,7 @@
 .form-tendaysfree::after {
     content: url(../images/pseudo-image001.png);
     position: absolute;
-    transform: translate(190%, 374%);
+    transform: translate(190%, 368%);
 }
 
 

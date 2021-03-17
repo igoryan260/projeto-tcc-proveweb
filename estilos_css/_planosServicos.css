@@ -64,6 +64,13 @@ header {
     margin: 2rem auto;
 }
 
+
+/*formatação dos links (cards) */
+
+.cards-plans div a {
+    text-decoration: none;
+}
+
 .card {
     width: 360px;
     height: 705px;

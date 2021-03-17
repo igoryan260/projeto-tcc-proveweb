@@ -1,0 +1,93 @@
+            .tabela-1 {
+                box-shadow: black 0 0 40px -10px;
+                width: max-content;
+                margin: 0 auto;
+                border-radius: .2rem;
+            }
+            
+            .tabela-1 table {
+                margin: 10rem auto 5rem;
+                max-width: 1100px;
+                position: relative;
+                border-collapse: collapse;
+            }
+            
+            .tabela-1 caption {
+                color: #f79725;
+                font-size: 28pt;
+                font-weight: 600;
+                top: -90px;
+                position: absolute;
+            }
+            
+            .tabela-1 table tbody tr td {
+                padding: .4rem 3rem;
+            }
+            
+            .second-column {
+                background-color: #f79725;
+                color: white;
+            }
+            /*Agora vamos fazer a estilização da segunda tabela (é também um formulário onde o cliente vai selecionar os seus adicionais)*/
+            
+            .formContentAdd {
+                width: max-content;
+                margin: 0 auto;
+                position: relative;
+            }
+            
+            .formContentAdd h2 {
+                color: #00a99d;
+                font-size: 28pt;
+                font-weight: 600;
+            }
+            
+            .containers {
+                width: 1100px;
+                height: max-content;
+                display: flex;
+                box-shadow: black 0 0 40px -10px;
+                margin: 4rem 0 10rem;
+                background-color: #00a99d;
+            }
+            
+            #contentLeft {
+                width: auto;
+                display: flex;
+                align-items: center;
+                line-height: 3rem;
+            }
+            
+            #formConteudosAdicionais {
+                display: grid;
+                grid-template-columns: auto 1fr;
+                padding: 0 6rem 0 2rem;
+                height: 100%;
+                background-color: white;
+                align-items: inherit;
+            }
+            
+            #contentRigth {
+                width: 600px;
+                padding: 0 2rem;
+                display: flex;
+            }
+            
+            #contentRigth ul li {
+                list-style: none;
+                min-height: 48px;
+                align-items: center;
+                display: flex;
+                color: white;
+            }
+            /* Estilizando o INPUT SUBMIT*/
+            
+            #formConteudosAdicionais input[type="submit"] {
+                border: solid #00a99d 2px;
+                position: absolute;
+                padding: 1rem 10rem;
+                background: none;
+                color: #00a99d;
+                border-radius: 2rem;
+                top: 23rem;
+            }

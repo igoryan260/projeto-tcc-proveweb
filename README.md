@@ -91,3 +91,11 @@ Adicionando um arquivo JS para ser linkada à página de login e cadastro. Utili
 - Atualização da página de planos e serviços, onde o titulo ganhou novos estilos e foi alterado os cards de acordo com seu conteúdo.
 
 - Na página "reclame"  foi trocado o atributo "justify-content: end;" no formulário (usado para alinhar à direita os textos e inputs) para "justify-content: flex-end;". Isso teve que ser feito, provavelmente o chrome já aboliu o atributo "end". Agora deve ser "flex-end".
+
+14/02/2021
+
+- Adicionando a pagina de "plano selecionado". E adicionando links aos cards dos planos que ficam na pagina "planos e serviços".
+
+15/03/2021:
+
+- Foi adicionado o primeiro conteúdo da página de "plano selecionado", onde criei uma tabela e a estiilizei conforme o nosso layout. Ainda falta finalizar o segundo conteúdo que conterá um formulário.

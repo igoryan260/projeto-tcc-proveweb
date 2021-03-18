@@ -99,3 +99,7 @@ Adicionando um arquivo JS para ser linkada à página de login e cadastro. Utili
 15/03/2021:
 
 - Foi adicionado o primeiro conteúdo da página de "plano selecionado", onde criei uma tabela e a estiilizei conforme o nosso layout. Ainda falta finalizar o segundo conteúdo que conterá um formulário.
+
+18/03/2021
+
+- terminada a esilização da página de plano esolhido. Com alinhamentos e etc.

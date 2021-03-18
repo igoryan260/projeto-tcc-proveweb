@@ -83,11 +83,56 @@
             /* Estilizando o INPUT SUBMIT*/
             
             #formConteudosAdicionais input[type="submit"] {
-                border: solid #00a99d 2px;
+                border: none;
+                font-size: 20pt;
+                font-weight: 500;
                 position: absolute;
-                padding: 1rem 10rem;
-                background: none;
-                color: #00a99d;
+                padding: .5rem 10rem;
+                background-color: #00a99d;
+                color: white;
                 border-radius: 2rem;
                 top: 23rem;
+                cursor: pointer;
+                left: 1rem;
+            }
+            
+            #formConteudosAdicionais input[type="submit"] {
+                transition: .3s;
+            }
+            
+            #formConteudosAdicionais input[type="submit"]:hover {
+                transition: .3s;
+                background-color: white;
+                color: #00a99d;
+            }
+            /*Estilizanco a div com o preco total do pedido de plano*/
+            
+            .precoTotal {
+                position: absolute;
+                top: 22.8rem;
+                right: 1rem;
+                border: #f79725 3px solid;
+                border-radius: 2rem;
+                padding: 0rem 9rem;
+                font-size: 20pt;
+                font-weight: 500;
+            }
+            
+            .precoTotal p {
+                color: #f79725;
+                font-weight: 501;
+            }
+            /*estilo do botão voltar*/
+            
+            .button-voltar {
+                border: none;
+                background: none;
+                font-size: 1.5em;
+                font-weight: 100;
+                cursor: pointer;
+                margin-bottom: 2rem;
+            }
+            
+            .button-voltar a {
+                text-decoration: none;
             }

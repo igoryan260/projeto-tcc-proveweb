@@ -103,3 +103,9 @@ Adicionando um arquivo JS para ser linkada à página de login e cadastro. Utili
 18/03/2021
 
 - terminada a esilização da página de plano esolhido. Com alinhamentos e etc.
+
+19/03/2021
+
+- Terminado os layouts dos planos escolhidos pelo usuário. Plano parcial, completo e super.
+
+- Criando e estilizando a página de cadastro de plano. Para acessá-la basta clicar no card de "plano econômico".

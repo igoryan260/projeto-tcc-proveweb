@@ -109,3 +109,6 @@ Adicionando um arquivo JS para ser linkada à página de login e cadastro. Utili
 - Terminado os layouts dos planos escolhidos pelo usuário. Plano parcial, completo e super.
 
 - Criando e estilizando a página de cadastro de plano. Para acessá-la basta clicar no card de "plano econômico".
+
+- 20:44
+finalizada a estilização da página de cadastro do plano. Siga os passos anteriores para saber onde foi feita a estilização.

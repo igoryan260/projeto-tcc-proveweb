@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../estilos_css/_stylePrincipal.css">
+    <link rel="stylesheet" href="../estilos_css/_modoPagamento.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7c25744412.js" crossorigin="anonymous"></script>
+
+    <title>Modo de Pagamento</title>
+</head>
+
+<body>
+
+    <!-- Menu  de  Navegação -->
+    <div class="nav-menu background">
+        <div class="width-delimited-100">
+            <div class="content-nav-menu">
+                <div class="logo">
+                    <img src="../images/Logo-ProveWeb.png" alt="logotipo" />
+                </div>
+                <nav class="menu-principal">
+
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="#">Planos e Serviços</a></li>
+                        <li><a href="./sobreNos.html">Conheça-nos</a></li>
+                        <li><a href="./contat.html">Contato</a></li>
+                        <li><a href="./10daysfree.html" id="ten-days-free">10 dias GRÁTIS</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Fim do menu de navegação -->
+
+    <section>
+
+        <div class="width-delimited-100">
+            <form class="">
+
+                <h1>MODO DE PAGAMENTO</h1>
+
+                <div class="formWidth">
+                    <h2>Selecione cartão ou boleto</h2>
+
+                    <div class="meiosPagamento">
+                        <div>
+                            <label for="elo"><img src="../../images/formModoPagento/elo.png" alt="elo"><br />elo</label>
+                            <input type="radio" name="modoPagamento" id="elo">
+                        </div>
+
+                        <div>
+                            <label for="mastercard"><img src="../../images/formModoPagento/master.png" alt="Master Card"><br /> MasterCard</label>
+                            <input type="radio" name="modoPagamento" id="mastercard">
+                        </div>
+
+                        <div>
+                            <label for="visa"><img src="../../images/formModoPagento/visa.png" alt="Visa"><br />visa</label>
+                            <input type="radio" name="modoPagamento" id="visa">
+                        </div>
+
+                        <div>
+                            <label for="hipercard"><img src="../../images/formModoPagento/hipercard.png" alt="Hiper Card"><br />HiperCard</label>
+                            <input type="radio" name="modoPagamento" id="hipercard">
+                        </div>
+
+                        <div>
+                            <label for="boleto"><img src="../../images/formModoPagento/fatura.png" alt="Boleto"><br />Boleto</label>
+                            <input type="radio" name="modoPagamento" id="boleto">
+                        </div>
+                    </div>
+
+                    <div class="dadosDoCartao">
+                        <div class="cardDatas">
+                            <div>
+                                <label for="titular"><b>Nome do Titular &nbsp;</b> &#40;Como está escrito no cartão&#41; &nbsp;</label><input type="text" name="nome" id="titular">
+                            </div>
+
+                            <div>
+                                <label for="numeroDoCartao"><br/><b>Numero do cartão &nbsp;</b></label><input type="number" name="numero" id="numeroDoCartao">
+                            </div>
+
+                            <div>
+                                <label for="codigoSeguranca"><br /><b>CVV&nbsp;</b></label> <input type="number" name="cvv" id="codigoSeguranca"> <b>&nbsp;Validade&nbsp;</b>
+
+                                <label for="vallidadeMesCartao">&nbsp;mes&nbsp;</label> <input type="number" name="mes" value="validadeMesCartao">
+
+                                <label for="validadeAnoCartao">&nbsp;ano&nbsp; </label> <input type="number" name="ano" value="validadeAnoCartao">
+                            </div>
+                        </div>
+
+                        <div class="action">
+                            <input type="submit" value="Finalizar">
+                            <input type="reset" value="Cancelar">
+                        </div>
+
+                        <div class="moreInformations">
+                            <p id="paragraphOne">
+                                Você escolheu o <i id="namePlan">Plano Parcial</i>, no valor de <i>R$ 149,99</i> e com os adicionais [...] aumentando o valor para <i>R$ 175,00</i>.
+                            </p>
+                            <p id="paragraphTwo">
+                                Entre em contato conosco para qualquer dúvida
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer  rodapé -->
+    <footer>
+        <div class="top-background-footer">
+            <div class="content-footer">
+                <div class="icon-proveweb h2">
+                    <div class="img-icon">
+                        <figcaption>
+                            <img src="../images/Ícone-prove.png">
+                        </figcaption>
+                    </div>
+                    <div class="center icon-proveweb">
+                        <h2>
+                            ProveWeb
+                        </h2>
+                    </div>
+                </div>
+                <div id="links-footer">
+
+                    <ul class="links">
+                        <li><a href="./reclame.html">Reclame</a></li>
+                        <li><a href="./duvidas.html">Dúvidas</a></li>
+                        <li><a href="./sobreNos.html">Sobre nós</a></li>
+                        <li><a href="#">Cancelar Planos</a></li>
+                    </ul>
+                    <ul class="social-media">
+                        <li>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="bottom-background-footer">
+            <div class="content-bottom-footer content-footer">
+                <p>
+                    Produzido e Desenvolvido por &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Nome da equipe'
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

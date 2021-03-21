@@ -112,3 +112,7 @@ Adicionando um arquivo JS para ser linkada à página de login e cadastro. Utili
 
 - 20:44
 finalizada a estilização da página de cadastro do plano. Siga os passos anteriores para saber onde foi feita a estilização.
+
+21/03/2021
+
+- Criada e finalizada a página de meios de pagamento. Para acessa-la voce deve escolher um plano, clicar em continuar ou prosseguir e chegará a esta tela. Nela o usuário irá escolher qual a forma de pagamento que vai fazer. No boleto será à vista o plano anual. Se quiser pagar por mês, o plano deve ser feito utilizando um cartão de crédito.

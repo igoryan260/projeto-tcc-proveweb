@@ -1,0 +1,159 @@
+/* Tamanho da largura e outras configurações do formulário */
+
+.formWidth {
+    width: 940px;
+    max-width: max-content;
+    margin: 0 auto 5rem;
+}
+
+h1 {
+    background-color: #00a99d;
+    color: white;
+    width: max-content;
+    padding: .2rem 1.5rem;
+    margin: 3rem 0 1rem;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+
+/* Alinhamentos dos ícone radios*/
+
+.meiosPagamento {
+    margin: 0 auto;
+    width: max-content;
+    display: flex;
+}
+
+.meiosPagamento div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    margin: 0 2rem;
+}
+
+.meiosPagamento input[type="radio"] {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border-radius: 5rem;
+    border: #00a99d solid 1px;
+}
+
+.meiosPagamento input[type="radio"]:hover {
+    border: #007069 solid 1px;
+}
+
+.meiosPagamento input[type="radio"]:checked {
+    background-color: #00a99d;
+}
+
+
+/*Finalizando os estilos de ícones e radios*/
+
+
+/*Estilo dos dados do cartão*/
+
+.dadosDoCartao {
+    margin: 1rem 0;
+    padding: 3rem 2rem;
+    box-shadow: black 0 0 15px -5px;
+    font-size: 14pt;
+}
+
+.cardDatas div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.cardDatas label {
+    flex-grow: 0;
+    display: flex;
+    width: max-content;
+}
+
+.cardDatas input {
+    flex-grow: 1;
+}
+
+
+/*inputs submits */
+
+.action {
+    width: max-content;
+    margin: 3rem auto 7rem;
+}
+
+.action input {
+    background-color: #00a99d;
+    color: white;
+    border: none;
+    padding: .2rem 4rem;
+    font-family: 'montserrat';
+    font-weight: bold;
+    border-radius: 25px;
+    font-size: 19pt;
+    cursor: pointer;
+}
+
+.action input[type="reset"] {
+    background: transparent;
+    border: #ff0000 solid 2px;
+    color: #ff0000;
+}
+
+
+/*inputs submits FINALIZADO */
+
+
+/* Parágrafos */
+
+.moreInformations {
+    display: flex;
+    justify-content: space-between;
+    font-size: 9pt;
+    align-items: flex-end;
+}
+
+#paragraphOne {
+    text-align: center;
+    max-width: 300px;
+}
+
+#paragraphTwo {
+    font-size: 6pt;
+    font-style: italic;
+}
+
+
+/*===================================================*/
+
+
+/*Estilizando as cores des algumas informações*/
+
+.moreInformations p i {
+    font-style: normal;
+    font-weight: 550;
+    color: #5f9d6b;
+}
+
+#namePlan {
+    color: #0769bc;
+}
+
+
+/*=====================================================*/
+
+
+/* parágrafos finalizados*/

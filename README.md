@@ -116,3 +116,6 @@ finalizada a estilização da página de cadastro do plano. Siga os passos anter
 21/03/2021
 
 - Criada e finalizada a página de meios de pagamento. Para acessa-la voce deve escolher um plano, clicar em continuar ou prosseguir e chegará a esta tela. Nela o usuário irá escolher qual a forma de pagamento que vai fazer. No boleto será à vista o plano anual. Se quiser pagar por mês, o plano deve ser feito utilizando um cartão de crédito.
+
+22/03/2021
+ - Criado a janela modal da página de modo de pagamento, onde a pessoa vai clicar em "finalizar", e aparecerá uma janela de confirmação para o usuário. A estilização foi bem básica. Utilizando apenas duas classes para fazer os devidos efeitos que estão no layout.

@@ -1,3 +1,8 @@
+body {
+    position: relative;
+}
+
+
 /* Tamanho da largura e outras configurações do formulário */
 
 .formWidth {
@@ -157,3 +162,48 @@ h2 {
 
 
 /* parágrafos finalizados*/
+
+
+/*janela modal, alerta para o usuário saber que o pedido foi recebido*/
+
+.modalConfirmation {
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.alertModal {
+    background-color: white;
+    border-radius: 3px;
+    padding: 3rem 2rem 1rem;
+    width: 20rem;
+    margin: 15rem auto auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.alertModal p {
+    text-align: center;
+}
+
+.alertModal button {
+    width: max-content;
+    align-self: flex-end;
+    background: none;
+    border: none;
+    font-size: 12pt;
+    margin-top: 3rem;
+    font-family: 'montserrat';
+}
+
+
+/*Aparece e desaparece janela modal*/
+
+.display {
+    display: none;
+}
+
+
+/*=================================================================*/

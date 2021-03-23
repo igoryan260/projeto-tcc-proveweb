@@ -20,6 +20,11 @@
                 position: absolute;
             }
             
+            .tabela-1 table tbody tr td:first-child {
+                min-width: 20rem;
+                padding: 0 1rem 0 2rem;
+            }
+            
             .tabela-1 table tbody tr td {
                 padding: .4rem 3rem;
             }

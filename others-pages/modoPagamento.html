@@ -96,7 +96,7 @@
                         </div>
 
                         <div class="action">
-                            <input type="submit" value="Finalizar">
+                            <input type="submit" value="Finalizar" id="abrirModal">
                             <input type="reset" value="Cancelar">
                         </div>
 
@@ -115,6 +115,21 @@
             </form>
         </div>
     </section>
+
+    <!-- Esta div com a classe 'modalConfirmation' serve para dar uma mensagem de confirmação de pagamento do usuário -->
+
+    <div class="modalConfirmation " id="modal-display">
+
+        <div class="alertModal ">
+            <p>
+                Pedido efetuado, assim que o pagamento for aprovado você será avisado por e-mail.
+            </p>
+            <button id="fecharModal">Fechar</button>
+        </div>
+
+    </div>
+
+    <!-- fim da div 'modalConfirmation'-->
 
     <!-- Footer  rodapé -->
     <footer>
@@ -166,6 +181,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="../js/modoPagamento.js"></script>
 
 </body>
 

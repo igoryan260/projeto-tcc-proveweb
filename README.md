@@ -127,3 +127,5 @@ finalizada a estilização da página de cadastro do plano. Siga os passos anter
  ### Dia 26/03/2021
 
  Finalização e organização dos códigos HTML. Hoje finalizamos todas as páginas do SITE. O que resta é fazer ajustes junto com o backend.
+
+ Adicionado também o arquivo jQuery, código AJAX para validação de formulário.

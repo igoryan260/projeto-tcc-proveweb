@@ -154,3 +154,75 @@ header {
 
 
 /*===============================================================*/
+
+
+/*Formatando a parte inferior do site antes de o footer iniciar*/
+
+.parte-inferior {
+    width: 100%;
+    height: 830px;
+    position: relative;
+    display: flex;
+}
+
+.parte-inferior img {
+    min-width: 1100px;
+    width: 100%;
+    height: 830px;
+    position: absolute;
+    overflow: hidden;
+    z-index: -2;
+}
+
+#content {
+    height: max-content;
+    margin: auto;
+    position: relative;
+}
+
+#content h2 {
+    font-size: 80pt;
+    font-weight: 500;
+    text-align: center;
+    color: #8c3266;
+    position: relative;
+}
+
+#content h2 i {
+    font-style: normal;
+}
+
+#primaryWrite {
+    color: #8c3266;
+    position: relative;
+}
+
+#content hr {
+    border: solid white 1px;
+    width: 300px;
+    position: absolute;
+    top: 115px;
+    right: 0px;
+}
+
+#secondWrite {
+    color: #00a99d;
+}
+
+#content button {
+    top: 160%;
+    left: 90%;
+    position: absolute;
+    background-color: #00a99d;
+    border: none;
+    padding: 0 1rem;
+    box-shadow: black 0px 0px 5px 1px;
+    border-radius: 2rem;
+}
+
+#content button a {
+    text-decoration: none;
+    color: #8c3266;
+    text-transform: uppercase;
+    font-size: 32pt;
+}

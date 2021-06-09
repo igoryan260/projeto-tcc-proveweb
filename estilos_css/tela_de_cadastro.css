@@ -164,3 +164,22 @@ form {
     cursor: pointer;
     transition: .2s;
 }
+
+
+/*estilizando o input de fazer login*/
+
+.second-content input[type="submit"] {
+    border: none;
+    background: none;
+    color: white;
+    border-radius: 3rem;
+    font-size: 15pt;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.second-content input[type="submit"]:hover {
+    color: #4fafb7;
+    transition: .2s;
+    cursor: pointer;
+}
